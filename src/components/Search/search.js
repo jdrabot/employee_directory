@@ -1,8 +1,7 @@
-import { checkPropTypes } from "prop-types";
 import React from "react";
 import "./style.css";
 
-function Search() {
+function Search(props) {
     return (
         <form>
             <div className="form-group">
@@ -21,7 +20,5 @@ function Search() {
         </form>
     );
 }
-
-export default Search;
 
 export default Search;
